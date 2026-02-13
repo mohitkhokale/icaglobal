@@ -31,7 +31,7 @@ const Home = () => {
 
             </div>
 
-            <div className="hero-stats">
+            {/* <div className="hero-stats">
               <div>
                 <h3>5000+</h3>
                 <span>Students</span>
@@ -44,7 +44,7 @@ const Home = () => {
                 <h3>10+</h3>
                 <span>Courses</span>
               </div>
-            </div>
+            </div> */}
           </motion.div>
           <motion.div
             className="hero-right"
@@ -70,20 +70,86 @@ const Home = () => {
 
             <div className="why-card">
               <FaUserGraduate className="icon" />
-              <h3>Practical Training</h3>
-              <p>Hands-on real project training for job readiness.</p>
+              <h3>Courses Certificates</h3>
+              <p>Industry preferred certificate which helps in Career boost.</p>
             </div>
 
             <div className="why-card">
               <FaChalkboardTeacher className="icon" />
-              <h3>Expert Trainers</h3>
-              <p>Learn from industry experienced trainers.</p>
+              <h3>Practical Classes</h3>
+              <p>Give clear explanations of what is expected of students.</p>
             </div>
 
             <div className="why-card">
               <FaBriefcase className="icon" />
+              <h3>Verifiable digital certificate</h3>
+              <p>Verify certificate in few clicks.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* WHY LEARN WITH US */}
+      <section className="why">
+        <div className="container">
+
+          <h2 className="section-title">Why Learn With Us?</h2>
+
+          <div className="why-grid">
+
+            <div className="why-card">
+              <div className="why-icon">💡</div>
+              <h3>Get Skilled</h3>
+              <p>
+                At ICA, you don’t just learn, you get skilled too. Learn from exceptional teaching staff,
+                get exclusive tips from experts & implement them in your training. Everything under one roof!
+              </p>
+            </div>
+
+            <div className="why-card">
+              <div className="why-icon">👥</div>
+              <h3>Learning Environment</h3>
+              <p>
+                ICA believes in providing a positive, friendly & learning-based environment.
+                Our courses value you & encourage you to bring your best to the table.
+              </p>
+            </div>
+
+            <div className="why-card">
+              <div className="why-icon">💼</div>
               <h3>Placement Support</h3>
-              <p>We help students get their first job.</p>
+              <p>
+                We stand by our students during the course but we also support them during placement.
+                ICA offers 100% guaranteed placement support to all the students.
+              </p>
+            </div>
+
+            <div className="why-card">
+              <div className="why-icon">💻</div>
+              <h3>Practical Approach</h3>
+              <p>
+                We believe in imparting real-life experiences to students by allowing them to master
+                the courses by using them in real-life situations.
+              </p>
+            </div>
+
+            <div className="why-card">
+              <div className="why-icon">📊</div>
+              <h3>Experience</h3>
+              <p>
+                Get ready for an unparalleled experience that will allow you to intern with us &
+                join our team on a long-term basis.
+              </p>
+            </div>
+
+            <div className="why-card">
+              <div className="why-icon">⭐</div>
+              <h3>Committed To Providing</h3>
+              <p>
+                We are committed to bridge the gap between jobs & people by offering quality & experienced
+                teaching services. From basic computer & internet courses to accounting courses like Tally & Tally Prime.
+              </p>
             </div>
 
           </div>
@@ -92,27 +158,50 @@ const Home = () => {
 
 
       {/* POPULAR COURSES */}
+      {/* COURSES */}
       <section className="courses">
         <div className="container">
-          <h2 className="section-title">Popular Courses</h2>
+
+          <h2 className="section-title">Our Course Offerings</h2>
+          <p className="section-sub">
+            We offer a variety of courses & there is something for everyone
+          </p>
 
           <div className="course-grid">
 
+            {/* COURSE 1 */}
             <div className="course-card">
-              <h3>Tally Prime + GST</h3>
-              <p>Complete accounting with real-time training.</p>
+              <img src="/tally-prime.png" alt="course" />
+              <h3>Tally Prime & Tally ERP9 <br/> with GST</h3>
+              <span className="duration">13 week classes</span>
+              <p>
+                Start your journey of computer accounting with Tally Prime & Tally ERP9 with GST course.
+                Learn the basics & become job-ready!
+              </p>
               <button>View Details</button>
             </div>
 
+            {/* COURSE 2 */}
             <div className="course-card">
-              <h3>Advanced Excel</h3>
-              <p>Master Excel for job & business growth.</p>
+              <img src="/tally-advance.png" alt="course" />
+              <h3>Advanced Tally <br/> Prime</h3>
+              <span className="duration">12 week classes</span>
+              <p>
+                Aim for in-depth knowledge of tally & accounting along with an internship & training with ICA.
+                Register for the advanced tally prime course now!
+              </p>
               <button>View Details</button>
             </div>
 
+            {/* COURSE 3 */}
             <div className="course-card">
-              <h3>Basic Computer</h3>
-              <p>Start your digital journey from basics.</p>
+              <img src="/basic-computer.png" alt="course" />
+              <h3>Basic Computer & Internet Courses</h3>
+              <span className="duration">Online Self Paced</span>
+              <p>
+                Upgrade your computer skills & become skilled in Information technology.
+                Enroll in our basic computer & internet courses now!
+              </p> <br/>
               <button>View Details</button>
             </div>
 
@@ -121,8 +210,9 @@ const Home = () => {
       </section>
 
 
+
       {/* PLACEMENTS */}
-      <section className="placements">
+      {/* <section className="placements">
         <div className="container">
           <h2 className="section-title">Our Students Working At</h2>
 
@@ -134,7 +224,7 @@ const Home = () => {
             <span>Local CA Firms</span>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* TESTIMONIALS */}

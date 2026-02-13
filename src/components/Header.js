@@ -10,9 +10,8 @@ const Header = () => {
     <header className="header">
       <div className="container nav">
 
-        {/* LOGO */}
-        <Link to="/" className="logo">
-          ICA Global
+        <Link to="/">
+          <img src="/logo.png" className="logo" alt="ICA Global" />
         </Link>
 
 
