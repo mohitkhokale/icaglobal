@@ -172,7 +172,7 @@ const Home = () => {
             {/* COURSE 1 */}
             <div className="course-card">
               <img src="/tally-prime.png" alt="course" />
-              <h3>Tally Prime & Tally ERP9 <br/> with GST</h3>
+              <h3>Tally Prime & Tally ERP9 <br /> with GST</h3>
               <span className="duration">13 week classes</span>
               <p>
                 Start your journey of computer accounting with Tally Prime & Tally ERP9 with GST course.
@@ -184,7 +184,7 @@ const Home = () => {
             {/* COURSE 2 */}
             <div className="course-card">
               <img src="/tally-advance.png" alt="course" />
-              <h3>Advanced Tally <br/> Prime</h3>
+              <h3>Advanced Tally <br /> Prime</h3>
               <span className="duration">12 week classes</span>
               <p>
                 Aim for in-depth knowledge of tally & accounting along with an internship & training with ICA.
@@ -201,7 +201,7 @@ const Home = () => {
               <p>
                 Upgrade your computer skills & become skilled in Information technology.
                 Enroll in our basic computer & internet courses now!
-              </p> <br/>
+              </p> <br />
               <button>View Details</button>
             </div>
 
@@ -210,6 +210,23 @@ const Home = () => {
       </section>
 
 
+      {/* REGISTER CTA */}
+      <section className="register-cta">
+        <div className="container register-box">
+
+          <div className="register-left">
+            <h2>Register Today</h2>
+            <h3>FREE 7 DAY TRIAL</h3>
+            <p>Limited seats only!</p>
+          </div>
+
+          <div className="register-right">
+            <Link to="/courses" className="cta-btn red">All Courses</Link>
+            <Link to="/contact" className="cta-btn green">Contact Us</Link>
+          </div>
+
+        </div>
+      </section>
 
       {/* PLACEMENTS */}
       {/* <section className="placements">
@@ -266,9 +283,11 @@ const Home = () => {
       {/* FINAL CTA */}
       <section className="cta">
         <div className="container">
-          <h2>Start Your Career Journey Today</h2>
-          <p>Admissions open. Limited seats available.</p>
-          <a href="/contact" className="btn-main">Apply Now</a>
+          <h2>Book A Course Today!</h2>
+          <p>
+            Don’t wait! Got questions? Not sure which course to choose? Need help but don’t know where to go?
+            <br /> We are here for you! Ask our experts anything & everything.</p> <br/>
+          <Link to="/contact" className="btn-main">Apply Now</Link>
         </div>
       </section>
 
