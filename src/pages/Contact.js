@@ -18,7 +18,7 @@ const handleSubmit = async (e)=>{
   e.preventDefault();
 
   try{
-    await fetch("https://script.google.com/macros/s/AKfycbxsJU1e834Kp5WWjxb7SulPrnp4vjSbCBpB5W7P9ggaY-MYzviP7j8cMmfQoaUatdGE/exec",{
+    await fetch("https://script.google.com/macros/s/AKfycbx44iseSe8GNJfR78KOf8yNMrYva13RYExqRUxkd2GOYSjzMATqVB-FtzhEPpXRBNnB/exec",{
       method:"POST",
       mode:"no-cors",
       headers:{
@@ -27,7 +27,7 @@ const handleSubmit = async (e)=>{
       body:JSON.stringify(form)
     });
 
-    alert("Enquiry Submitted ✅");
+    alert("Enquiry Submitted");
   }catch(err){
     alert("Error sending form");
     console.log(err);
